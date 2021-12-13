@@ -355,6 +355,9 @@ footer p {
         margin-left: 33%;
     }
     /* about */
+    .about br {
+        display: none;
+    }
     .about .kolom.kiri {
         width: 100%;
     }
@@ -365,8 +368,12 @@ footer p {
     .about .kolom.kiri .p-one {
         margin-top: 5%;
     }
+    .about .kolom.kiri p {
+        margin-bottom: 2%;
+        font-size: 15px;
+    }
     .about .kolom.kiri .skill h2 {
-        margin-top: -8%;
+        margin-top: 23%;
         margin-left: 5%;
     }
     .about .kolom.kanan {
