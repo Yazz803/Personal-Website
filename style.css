@@ -171,6 +171,9 @@ body {
     margin-top: 50px;
     margin-bottom: 0;
 }
+.about .kolom.kanan p {
+    padding-bottom: 5%;
+}
 .about .kolom.kanan .aboutme {
     margin: 0;
     margin-bottom: 5%;
