@@ -1,6 +1,17 @@
 html {
     scroll-behavior: smooth;
+    animation: fadein ease-in 1s;
 }
+/* animation */
+    @keyframes fadein {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+/* end animation */
 body {
     margin: 0;
     padding: 0;
@@ -155,6 +166,11 @@ body {
 .about .kolom.kanan {
     width: 50%;
     float: right;
+}
+.about .kolom.kanan p {
+    padding-bottom: 5%;
+    text-align: justify;
+    margin-right: 5%;
 }
 .about .kolom.kanan h2 {
     margin-top: 50px;
@@ -355,6 +371,9 @@ footer p {
         margin-left: 33%;
     }
     /* about */
+    .about br {
+        display: none;
+    }
     .about .kolom.kiri {
         width: 100%;
     }
@@ -365,8 +384,12 @@ footer p {
     .about .kolom.kiri .p-one {
         margin-top: 5%;
     }
+    .about .kolom.kiri p {
+        margin-bottom: 2%;
+        font-size: 15px;
+    }
     .about .kolom.kiri .skill h2 {
-        margin-top: -8%;
+        margin-top: 23%;
         margin-left: 5%;
     }
     .about .kolom.kanan {
