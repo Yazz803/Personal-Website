@@ -173,6 +173,7 @@ body {
 }
 .about .kolom.kanan p {
     padding-bottom: 5%;
+    text-align: justify;
 }
 .about .kolom.kanan .aboutme {
     margin: 0;
