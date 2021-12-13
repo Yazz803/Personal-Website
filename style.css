@@ -367,6 +367,9 @@ footer p {
     .home .paragraf .paragrap-dua {
         padding-bottom: 10%;
     }
+    .home .paragraf p {
+        font-size: 25px;   
+    }
     .home .paragraf a {
         margin-left: 33%;
     }
