@@ -116,16 +116,16 @@
         <h2>CONTACT</h2>
         <p>Ingin berkenalan? silahkan kirim pesan melalui form dibawah ini</p>
         <div class="pesan">
-            <form action="">
+            <form action="https://formspree.io/f/xayvybea" method="POST">
                 <label for="nama"></label>
-                <input type="text" placeholder="Nama Anda">
+                <input type="text" id="nama" name="nama" placeholder="Nama Anda" required>
                 <label for="email"></label>
-                <input type="text" placeholder="Alamat Email">
+                <input type="text" id="email" name="email" placeholder="Alamat Email" required>
                 <label for="phone"></label>
-                <input type="text" placeholder="Nomor Telepon">
+                <input type="text" placeholder="Nomor Telepon" required>
                 <label for="pesan"></label>
-                <textarea name="pesan" id="" cols="30" rows="10" placeholder="Silahkan tulis pesan anda"></textarea>
-                <input type="submit">
+                <textarea name="pesan" id="pesan" name="pesan" cols="30" rows="10" placeholder="Silahkan tulis pesan anda" required></textarea>
+                <input type="submit" value="Kirim">
             </form>
         </div>
     </div>
