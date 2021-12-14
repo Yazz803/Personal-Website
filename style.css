@@ -68,6 +68,7 @@ body {
     display: inline-block;
     padding: 10px 20px;
     font-weight: bold;
+    border-radius: .3em;
 }
 .home ul a {
     color: black;
@@ -76,10 +77,11 @@ body {
     font-size: 19px;
     text-shadow: 0 0 1px white, 0 0 2px white, 0 0 3px white;
 }
-.home ul a:hover {
+.home ul a:hover li {
     color: white;
     text-shadow: 0 0 1px black, 0 0 2px black, 0 0 3px black, 0 0 4px black;
     transition: .5s;
+    background-color: rgba(0, 0, 0, 0.322);
 }
 
 .home .paragraf p {
