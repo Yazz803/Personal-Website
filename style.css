@@ -353,7 +353,7 @@ footer p {
 /* Responsive */
 @media (max-width: 1000px) {
     .home {
-        padding-bottom: 60%;
+        padding-bottom: 70%;
         width: 100%;
     }
     .home ul {
