@@ -62,11 +62,11 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 .home header ul {
-    margin-left: 48%;
+    margin-left: 55%;
 }
 .home header ul li {
     display: inline-block;
-    padding: 10px 30px;
+    padding: 10px 20px;
     font-weight: bold;
 }
 .home ul a {
