@@ -395,13 +395,31 @@ footer p {
         padding-bottom: 80%;
         width: 100%;
     }
-    .home ul {
-        display: none;
+    .home ul a {
+        font-size: 15px;
+        color: white;
+        text-shadow: 0 0 1px black, 0 0 2px black, 0 0 3px black, 0 0 4px black;
+    }
+    .home header ul {
+        width: 100%;
+        background-color: rgba(0, 0, 0, .5);
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 0;
+        border-bottom: 4px solid white;
+        z-index: 999;
     }
     .home header h1 {
         font-size: 20px;
         padding: 10px;
         display: none;
+    }
+    .home header ul li {
+        padding: 15px 0;
     }
     .home .paragraf .paragrap-satu {
         padding-top: 63%;
@@ -421,6 +439,7 @@ footer p {
     }
     .about .kolom.kiri {
         width: 100%;
+        padding-top: 50px;
     }
     .about .kolom.kiri img {
         width: 30%;
@@ -474,6 +493,7 @@ footer p {
     .services {
         height: auto;
         padding-bottom: 5%;
+        padding-top: 50px;
     }
     .services2 {
         justify-content: space-around;
@@ -486,10 +506,14 @@ footer p {
         margin: 5%;
         padding: 20%;
     }
+    .work h2 {
+        padding-top: 60px;
+    }
     /* end services */
     /* contact */
     .contact {
         width: 100%;
+        padding-top: 50px;
     }
     .pesan {
         background-color: rgba(255, 255, 255, 0.301);
